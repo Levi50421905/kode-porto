@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Tugas</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manajemen Tugas</h1>
+            <h2>Kelola Tugas <span class="typed-text"></span></h2>
+            <p class="subtitle">Harus Berguna</p>
+        </div>
+
+        <div class="task-form">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="subject">
+                        <i class="fas fa-book"></i>
+                        Mata Pelajaran
+                    </label>
+                    <input type="text" id="subject" class="form-control" placeholder="Masukkan mata pelajaran">
+                </div>
+
+                <div class="form-group">
+                    <label for="deadline">
+                        <i class="fas fa-calendar"></i>
+                        Tenggat Waktu
+                    </label>
+                    <input type="date" id="deadline" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="status">
+                        <i class="fas fa-tasks"></i>
+                        Status
+                    </label>
+                    <select id="status" class="form-control">
+                        <option value="Belum Mulai">Belum Mulai</option>
+                        <option value="Sedang Dikerjai">Sedang Dikerjai</option>
+                        <option value="Selesai">Selesai</option>
+                    </select>
+                </div>
+            </div>
+
+            <button id="saveButton" class="btn" onclick="handleSave()">
+                <i class="fas fa-save"></i>
+                Simpan
+            </button>
+        </div>
+
+        <div class="task-table">
+            <div class="table-header">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input 
+                        type="text" 
+                        class="search-input" 
+                        placeholder="Cari tugas..."
+                        aria-label="Cari tugas"
+                    >
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><i class="fas fa-book"></i>Mata Pelajaran</th>
+                            <th><i class="fas fa-calendar"></i>Tenggat Waktu</th>
+                            <th><i class="fas fa-info-circle"></i>Status</th>
+                            <th><i class="fas fa-cog"></i>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="taskList"></tbody>
+                </table>
+            </div>
+
+            <div id="emptyState" class="empty-state hidden">
+                <i class="fas fa-tasks fa-3x"></i>
+                <p>Belum ada tugas. Tambahkan tugas baru!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/script.js"></script>
+</body>
+</html>
