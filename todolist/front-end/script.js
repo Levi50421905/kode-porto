@@ -1,12 +1,9 @@
-// Konstanta untuk API URL
 const API_URL = 'https://todolist-back-wga3.onrender.com/tasks';
 
-// Global variables
 let isEditMode = false;
 let editingId = null;
 let allTasks = [];
 
-// Theme management
 function initializeTheme() {
     const theme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', theme);
@@ -28,7 +25,6 @@ function updateThemeIcon() {
     themeIcon.className = currentTheme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
 }
 
-// Search functionality
 function initializeSearch() {
     const searchInput = document.querySelector('.search-input');
     searchInput.addEventListener('input', handleSearch);
@@ -43,7 +39,6 @@ function handleSearch(event) {
     renderTasks(filteredTasks);
 }
 
-// Utility functions
 function getStatusBadgeClass(status) {
     switch(status) {
         case 'Belum Mulai':
@@ -79,7 +74,6 @@ function showNotification(message, type = 'success') {
     }, 3000);
 }
 
-// Task rendering
 function renderTasks(tasks) {
     const taskList = document.getElementById('taskList');
     taskList.innerHTML = '';
@@ -111,7 +105,6 @@ function renderTasks(tasks) {
     }
 }
 
-// CRUD Operations
 function fetchTasks() {
     fetch(API_URL)
         .then(response => response.json())
@@ -136,7 +129,6 @@ function handleSave() {
     }
 
     if (isEditMode && editingId) {
-        // Update existing task
         fetch(`${API_URL}/${editingId}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
@@ -156,7 +148,6 @@ function handleSave() {
             showNotification('Gagal memperbarui tugas', 'error');
         });
     } else {
-        // Create new task
         fetch(API_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -223,7 +214,6 @@ function confirmDelete(taskId, buttonElement) {
     });
 }
 
-// Helper functions
 function resetForm() {
     document.getElementById('subject').value = '';
     document.getElementById('deadline').value = '';
@@ -246,26 +236,20 @@ function formatDateForInput(dateString) {
     return date.toISOString().split('T')[0];
 }
 
-// Initialize everything when the page loads
 window.onload = function() {
-    // Add theme toggle button to DOM
     const themeButton = document.createElement('button');
     themeButton.className = 'theme-toggle';
     themeButton.innerHTML = '<i class="fas fa-moon"></i>';
     themeButton.onclick = toggleTheme;
     document.body.appendChild(themeButton);
 
-    // Initialize theme
     initializeTheme();
     
-    // Initialize search
     initializeSearch();
     
-    // Fetch initial tasks
     fetchTasks();
 };
 
-// Typed Text Effect
 const typedTextElement = document.querySelector('.typed-text');
 const roles = ['Dengan Mudah', 'Dengan Cepat', 'Dengan Teratur', 'Dengan Baik'];
 let roleIndex = 0;
