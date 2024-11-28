@@ -430,7 +430,6 @@ tr:hover {
     }
 }
 
-/* Dark mode variables */
 :root {
     --bg-primary: #f0f2f5;
     --bg-secondary: #ffffff;
@@ -455,7 +454,6 @@ tr:hover {
     --primary-hover: #818cf8;
 }
 
-/* Update existing styles to use variables */
 body {
     background: var(--bg-primary);
     color: var(--text-primary);
@@ -518,7 +516,6 @@ tr:hover {
     background: var(--hover-bg);
 }
 
-/* Theme toggle button */
 .theme-toggle {
     position: fixed;
     top: 1rem;
@@ -544,9 +541,9 @@ tr:hover {
 }
 
 h2 {
-    color: blue; /* Warna untuk h2 */
+    color: blue;
   }
 
   h2 .typed-text {
-    color: black; /* Warna untuk class 'no-change' tidak berubah */
+    color: black; 
   }
