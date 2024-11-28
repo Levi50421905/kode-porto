@@ -6,7 +6,6 @@ require('dotenv').config();
 
 const app = express();
 
-// Konfigurasi CORS yang lebih permisif
 const allowedOrigins = [
     'https://my-todolist-ar.netlify.app',
     'https://67441dc44cd71e0007078096--my-todolist-ar.netlify.app',
@@ -16,7 +15,6 @@ const allowedOrigins = [
 
 app.use(cors({
     origin: function(origin, callback) {
-        // Allow requests with no origin (like mobile apps or curl requests)
         if (!origin) return callback(null, true);
         
         if (allowedOrigins.indexOf(origin) === -1) {
