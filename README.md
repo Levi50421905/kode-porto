@@ -78,6 +78,8 @@ Nama Anda - [@LeviAlfarezzi](https://instagram.com/levialfrz_) - levialfarezzi.d
 
 Project Link: [https://github.com/levi50421905/kode-porto](https://github.com/levi50421905/kode-porto)
 
+Website Pribadi: [@Levialfrz](https://levialfrz.netlify.app)
+
 ---
 
 ![Showcase](images/myskripsiss.png)
