@@ -1,4 +1,10 @@
-🚀 Pustaka Proyek Publik
+🚀 Pustaka Proyek Terbuka
+<div align="center">
+  <img src="images/logo.png" alt="Logo Pustaka Proyek" width="200">
+  <br>
+  <em>Kumpulan proyek terbuka untuk digunakan publik</em>
+</div>
+<br>
 Show Image
 Show Image
 Show Image
@@ -8,17 +14,25 @@ Selamat datang di Pustaka Proyek Terbuka! Repository ini berisi berbagai proyek 
 🗂️ Struktur Repository
 Repository ini diorganisir dalam struktur folder sebagai berikut:
 .
+├── images/                 # Gambar untuk README utama
+│   └── logo.png
 ├── ProyekA/
 │   ├── src/
 │   ├── docs/
+│   ├── images/             # Screenshot dan gambar proyek
+│   │   └── screenshot.png
 │   └── README.md
 ├── ProyekB/
 │   ├── src/
 │   ├── docs/
+│   ├── images/
+│   │   └── preview.png
 │   └── README.md
 ├── ProyekC/
 │   ├── src/
 │   ├── docs/
+│   ├── images/
+│   │   └── demo.gif
 │   └── README.md
 └── ...
 Setiap folder proyek memiliki README sendiri yang menjelaskan cara penggunaan dan informasi detail tentang proyek tersebut.
@@ -26,12 +40,17 @@ Setiap folder proyek memiliki README sendiri yang menjelaskan cara penggunaan da
 Berikut adalah daftar proyek yang tersedia dalam repository ini:
 💻 ProyekA: [Nama Proyek A]
 Deskripsi singkat tentang Proyek A dan manfaatnya.
+<img src="ProyekA/images/screenshot.png" alt="Screenshot ProyekA" width="600">
 Lihat Detail →
 📱 ProyekB: [Nama Proyek B]
 Deskripsi singkat tentang Proyek B dan manfaatnya.
+<img src="ProyekB/images/preview.png" alt="Preview ProyekB" width="600">
 Lihat Detail →
 🌐 ProyekC: [Nama Proyek C]
 Deskripsi singkat tentang Proyek C dan manfaatnya.
+<div align="center">
+  <img src="ProyekC/images/demo.gif" alt="Demo ProyekC" width="450">
+</div>
 Lihat Detail →
 📥 Cara Menggunakan
 Anda bisa menggunakan proyek-proyek ini dengan beberapa cara:
@@ -65,4 +84,9 @@ LinkedIn: Nama Anda
 
 
 ⭐ Jangan lupa untuk memberikan bintang jika Anda menemukan repository ini bermanfaat! ⭐
+<div align="center">
+  <img src="images/showcase.png" alt="Showcase Proyek" width="800">
+  <br>
+  <em>Showcase beberapa proyek yang tersedia</em>
+</div>
 Terakhir diperbarui: Mei 2025
