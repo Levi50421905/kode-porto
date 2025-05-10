@@ -1,6 +1,6 @@
 # Pustaka Proyek Terbuka
 
-![Logo](images/icon1.png){width=100px}
+![Logo](images/icon1.png){width=50px}
 
 [![GitHub stars](https://img.shields.io/github/stars/levi50421905/kode-porto?style=flat-square)](https://github.com/levi50421905/kode-porto/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/levi50421905/kode-porto?style=flat-square)](https://github.com/levi50421905/kode-porto/network/members)
