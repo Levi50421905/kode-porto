@@ -1,6 +1,6 @@
 # Pustaka Proyek Terbuka
 
-![Logo](images/icon1.png)
+![Logo](images/icon1.png){width=100px}
 
 [![GitHub stars](https://img.shields.io/github/stars/levi50421905/kode-porto?style=flat-square)](https://github.com/levi50421905/kode-porto/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/levi50421905/kode-porto?style=flat-square)](https://github.com/levi50421905/kode-porto/network/members)
@@ -79,6 +79,7 @@ Project Link: [https://github.com/username/repository](https://github.com/userna
 
 ---
 
-![Showcase](images/myskripsiss.png)(images/imgp1.png)
+![Showcase](images/myskripsiss.png)
+![Showcase](images/imgp1.png)
 
 Terakhir diperbarui: Mei 2025
