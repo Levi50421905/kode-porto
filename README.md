@@ -1,92 +1,137 @@
-🚀 Pustaka Proyek Terbuka
-<div align="center">
-  <img src="images/logo.png" alt="Logo Pustaka Proyek" width="200">
-  <br>
-  <em>Kumpulan proyek terbuka untuk digunakan publik</em>
-</div>
-<br>
-Show Image
-Show Image
-Show Image
-Show Image
-📚 Tentang Repository
-Selamat datang di Pustaka Proyek Terbuka! Repository ini berisi berbagai proyek yang telah saya kembangkan dan dibagikan untuk digunakan oleh publik. Setiap folder berisi proyek yang berbeda dengan dokumentasi dan kode yang lengkap.
-🗂️ Struktur Repository
-Repository ini diorganisir dalam struktur folder sebagai berikut:
-.
+# Pustaka Proyek Terbuka
+
+![Logo](images/logo.png)
+
+[![GitHub stars](https://img.shields.io/github/stars/username/repository?style=flat-square)](https://github.com/username/repository/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/username/repository?style=flat-square)](https://github.com/username/repository/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/username/repository?style=flat-square)](https://github.com/username/repository/issues)
+[![GitHub license](https://img.shields.io/github/license/username/repository?style=flat-square)](https://github.com/username/repository/blob/main/LICENSE)
+
+> Kumpulan proyek open source untuk digunakan publik
+
+## Daftar Isi
+
+- [Tentang Repository](#tentang-repository)
+- [Struktur Repository](#struktur-repository)
+- [Daftar Proyek](#daftar-proyek)
+- [Cara Menggunakan](#cara-menggunakan)
+- [Kontribusi](#kontribusi)
+- [Lisensi](#lisensi)
+- [Kontak](#kontak)
+
+## Tentang Repository
+
+Repository ini berisi berbagai proyek yang telah dikembangkan dan dibagikan untuk digunakan oleh publik. Setiap folder berisi proyek yang berbeda dengan dokumentasi dan kode yang lengkap.
+
+## Struktur Repository
+
+```
+root/
+│
 ├── images/                 # Gambar untuk README utama
-│   └── logo.png
+│   ├── logo.png
+│   └── showcase.png
+│
 ├── ProyekA/
-│   ├── src/
-│   ├── docs/
+│   ├── src/                # Source code
+│   ├── docs/               # Dokumentasi
 │   ├── images/             # Screenshot dan gambar proyek
 │   │   └── screenshot.png
-│   └── README.md
+│   └── README.md           # Dokumentasi spesifik proyek
+│
 ├── ProyekB/
 │   ├── src/
 │   ├── docs/
 │   ├── images/
 │   │   └── preview.png
 │   └── README.md
+│
 ├── ProyekC/
 │   ├── src/
 │   ├── docs/
 │   ├── images/
 │   │   └── demo.gif
 │   └── README.md
-└── ...
-Setiap folder proyek memiliki README sendiri yang menjelaskan cara penggunaan dan informasi detail tentang proyek tersebut.
-🔍 Daftar Proyek
-Berikut adalah daftar proyek yang tersedia dalam repository ini:
-💻 ProyekA: [Nama Proyek A]
+│
+├── LICENSE                 # Lisensi repository
+└── README.md               # File ini
+```
+
+## Daftar Proyek
+
+### ProyekA: Nama Proyek A
+
 Deskripsi singkat tentang Proyek A dan manfaatnya.
-<img src="ProyekA/images/screenshot.png" alt="Screenshot ProyekA" width="600">
-Lihat Detail →
-📱 ProyekB: [Nama Proyek B]
+
+![Screenshot ProyekA](ProyekA/images/screenshot.png)
+
+[Lihat Detail →](./ProyekA)
+
+---
+
+### ProyekB: Nama Proyek B
+
 Deskripsi singkat tentang Proyek B dan manfaatnya.
-<img src="ProyekB/images/preview.png" alt="Preview ProyekB" width="600">
-Lihat Detail →
-🌐 ProyekC: [Nama Proyek C]
+
+![Preview ProyekB](ProyekB/images/preview.png)
+
+[Lihat Detail →](./ProyekB)
+
+---
+
+### ProyekC: Nama Proyek C
+
 Deskripsi singkat tentang Proyek C dan manfaatnya.
-<div align="center">
-  <img src="ProyekC/images/demo.gif" alt="Demo ProyekC" width="450">
-</div>
-Lihat Detail →
-📥 Cara Menggunakan
-Anda bisa menggunakan proyek-proyek ini dengan beberapa cara:
 
-Clone Repository Lengkap
-bashgit clone https://github.com/username/repository.git
+![Demo ProyekC](ProyekC/images/demo.gif)
 
-Unduh Proyek Tertentu
-bashsvn checkout https://github.com/username/repository/trunk/ProyekA
+[Lihat Detail →](./ProyekC)
 
-Melihat dan Menjelajahi
-Jelajahi repository ini secara online dan baca dokumentasi setiap proyek untuk memahami cara penggunaannya.
+## Cara Menggunakan
 
-🤝 Kontribusi
-Saya sangat menghargai kontribusi dari komunitas. Jika Anda ingin berkontribusi:
+### Clone Repository Lengkap
 
-Fork repository ini
-Buat branch baru (git checkout -b fitur-baru)
-Commit perubahan Anda (git commit -m 'Menambahkan fitur baru')
-Push ke branch Anda (git push origin fitur-baru)
-Buat Pull Request
+```bash
+git clone https://github.com/username/repository.git
+cd repository
+```
 
-📄 Lisensi
-Repository ini dilisensikan di bawah [Nama Lisensi]. Silakan lihat file LICENSE untuk detail selengkapnya.
-📞 Kontak
+### Unduh Proyek Tertentu
 
-Website: Website Anda
-Email: [email@anda.com]
-Twitter: @username
-LinkedIn: Nama Anda
+```bash
+# Menggunakan svn untuk mengunduh folder tertentu dari GitHub
+svn checkout https://github.com/username/repository/trunk/ProyekA
+cd ProyekA
+```
 
+### Menjalankan Proyek
 
-⭐ Jangan lupa untuk memberikan bintang jika Anda menemukan repository ini bermanfaat! ⭐
-<div align="center">
-  <img src="images/showcase.png" alt="Showcase Proyek" width="800">
-  <br>
-  <em>Showcase beberapa proyek yang tersedia</em>
-</div>
+Setiap proyek memiliki instruksi menjalankan spesifik yang dapat ditemukan di README masing-masing proyek.
+
+## Kontribusi
+
+Kontribusi dari komunitas sangat dihargai. Jika Anda ingin berkontribusi:
+
+1. Fork repository ini
+2. Buat branch baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buka Pull Request
+
+Pastikan untuk membaca [CONTRIBUTING.md](CONTRIBUTING.md) untuk detail lebih lanjut tentang proses kontribusi.
+
+## Lisensi
+
+Repository ini dilisensikan di bawah [Nama Lisensi]. Silakan lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
+
+## Kontak
+
+Nama Anda - [@username](https://twitter.com/username) - email@example.com
+
+Project Link: [https://github.com/username/repository](https://github.com/username/repository)
+
+---
+
+![Showcase](images/showcase.png)
+
 Terakhir diperbarui: Mei 2025
