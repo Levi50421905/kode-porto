@@ -76,7 +76,7 @@ Repository ini dilisensikan di bawah [Nama Lisensi]. Silakan lihat file [LICENSE
 
 Nama Anda - [@LeviAlfarezzi](https://instagram.com/levialfrz_) - levialfarezzi.dev@gmail.com
 
-Project Link: [https://github.com/username/repository](https://github.com/username/repository)
+Project Link: [https://github.com/levi50421905/kode-porto](https://github.com/levi50421905/kode-porto)
 
 ---
 
