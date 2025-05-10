@@ -44,8 +44,8 @@ root/
 
 ## Daftar Proyek
 
-*CRUD_CI3
-*TODOLIST
+- CRUD_CI3
+- TODOLIST
 
 ## Cara Menggunakan
 
