@@ -16,7 +16,6 @@
 - [Struktur Repository](#struktur-repository)
 - [Daftar Proyek](#daftar-proyek)
 - [Cara Menggunakan](#cara-menggunakan)
-- [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
 - [Kontak](#kontak)
 
